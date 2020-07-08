@@ -1,7 +1,6 @@
-from flask_restful import Api
-
-from flaskr import create_app, HelloWorld
+from flaskr import create_app
 
 app = create_app()
 
-app.run()
+if __name__ == "__main__":
+    app.run()
